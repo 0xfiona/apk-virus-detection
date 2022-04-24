@@ -10,6 +10,6 @@
 
 #### 检测原理
 
-最终实现结果和原理见报告`report.pdf`
+最终实现结果和原理见报告`report.pdf`和`project_documents.pdf`
 
 
