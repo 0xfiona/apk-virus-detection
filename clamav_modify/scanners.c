@@ -153,7 +153,7 @@ int exec_process(char *cmd, char *result, int size)
     
     if(result != NULL && size > 0) {
         memset(result, 0, size);
-        ret = fread(result, 1, size - 1, fp); /* -1: at least one zero plus */
+        ret = fread(result, 1, size - 1, fp); 
         if(ferror(fp)) {
             printf("exec_process: error\n");
             pclose(fp);

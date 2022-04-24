@@ -25,7 +25,6 @@ def disassemble(frompath, topath, num, start=0):
         j += 1
 
 
-
 # 反汇编正常软件样本
 kind_root = "E:\\virus\\normal"
 disassemble(kind_root, "./smalis/kind", 1000)

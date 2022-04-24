@@ -32,7 +32,6 @@ x_dev = sc.fit_transform(x_dev)
 
 # RandomForest
 from sklearn.ensemble import RandomForestClassifier as RF
-# from sklearn.ensemble import RandomForestRegressor as RF
 classifier = RF(n_estimators=500, n_jobs=-1)
 
 # 训练分类器

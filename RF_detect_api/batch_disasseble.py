@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-反汇编良性软件、恶意软件、测试软件　　　
-"""
-
 import os
 import subprocess
 

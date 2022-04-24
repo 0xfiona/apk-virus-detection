@@ -2,7 +2,7 @@
 
 import os
 
-
+# 获得对应文件数量便于后续调用的
 def get_file_num1(frompath, num, start=0):
     files = os.listdir(frompath)
     files = files[start:num]
